@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gen3Recomp Mod Index</title>
+  <style>
+    body{font-family:system-ui,sans-serif;max-width:1000px;margin:40px auto;padding:0 20px;background:#111;color:#eee}
+    a{color:#7cc7ff}.card{border:1px solid #333;border-radius:12px;padding:16px;margin:12px 0;background:#181818}
+    .muted{color:#aaa}code{background:#222;padding:2px 5px;border-radius:5px}
+  </style>
+</head>
+<body>
+  <h1>Gen3Recomp Mod Index</h1>
+  <p>Automatically synchronized from <a href="https://github.com/FAFF0x/gen3recomp">FAFF0x/gen3recomp</a>.</p>
+  <p class="muted">Feed: <code>data/index.json</code></p>
+  <div id="mods">Loading…</div>
+  <script>
+    fetch('data/index.json').then(r=>r.json()).then(data=>{
+      const root=document.getElementById('mods');
+      root.innerHTML='<p>'+data.count+' mod(s) indexed.</p>';
+      for(const m of data.mods){
+        const d=document.createElement('div');
+        d.className='card';
+        d.innerHTML='<h2>'+escapeHtml(m.title)+'</h2>'+
+          '<p>'+escapeHtml(m.description||'')+'</p>'+
+          '<p><strong>Version:</strong> '+escapeHtml(m.version)+
+          ' · <a href="'+m.downloadURL+'">Download ZIP</a></p>'+
+          '<p class="muted"><code>'+escapeHtml(m.id)+'</code></p>';
+        root.appendChild(d);
+      }
+    }).catch(e=>{
+      document.getElementById('mods').textContent='Index unavailable: '+e;
+    });
+    function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+  </script>
+</body>
+</html>
