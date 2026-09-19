@@ -1,0 +1,20 @@
+{
+  "id": "disable_help_lr_gen3",
+  "title": "Disable L/R Help Gen 3",
+  "author": "FAFF0x",
+  "summary": "FireRed-only QoL mod that permanently disables the L/R Help screen trigger while preserving L/R input for boxes, menus and other mods.",
+  "version": "1.0.0",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/disable_help_lr_gen3_v1.0.0.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

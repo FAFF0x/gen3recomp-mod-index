@@ -1,0 +1,21 @@
+{
+  "id": "dv_ev_editor_gen3",
+  "title": "DV EV Editor Gen 3",
+  "author": "FAFF0x",
+  "summary": "FireRed-only Gen 3 IV/EV editor. Adds IV/EV to the field party action menu, edits all six IVs and EVs, recalculates stats immediately, and supports START to maximize all values.",
+  "version": "2.0.2",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/dv_ev_editor_gen3_v2.0.2.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": true,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

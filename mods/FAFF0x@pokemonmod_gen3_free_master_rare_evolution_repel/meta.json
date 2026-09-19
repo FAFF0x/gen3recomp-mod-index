@@ -1,0 +1,21 @@
+{
+  "id": "pokemonmod_gen3_free_master_rare_evolution_repel",
+  "title": "Free Master/Rare + Evolution + Max Repel - Gen 3",
+  "author": "FAFF0x",
+  "summary": "FireRed-only combined shop mod: free Master Ball, Rare Candy and Max Repel in normal Poke Marts plus a dedicated free Evolution Shop. Uses the native Game3 ShopMenu and coexistence-safe wrappers.",
+  "version": "1.0.4",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/free_master_rare_evolution_repel_gen3_v1.0.4.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

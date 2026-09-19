@@ -1,0 +1,21 @@
+{
+  "id": "area_dexnav_gen3",
+  "title": "Area DexNav Gen 3",
+  "author": "FAFF0x",
+  "summary": "Press SELECT in the FireRed overworld to immediately encounter an uncaught Pokemon from the current area's real FireRed LAND/WATER encounter table. Separate Gen3 package and namespace prevent import…",
+  "version": "1.0.1",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/area_dexnav_gen3_v1.0.1.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

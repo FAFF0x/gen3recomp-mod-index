@@ -1,0 +1,20 @@
+{
+  "id": "all_tm_shop_gen3",
+  "title": "Universal Free TM/HM Shop Gen 3",
+  "author": "FAFF0x",
+  "summary": "FireRed-only free TM/HM shop with a dedicated Modern UI-style catalogue, readable move details, type/category icons and filters. TM01-TM50 and HM01-HM08 are free.",
+  "version": "1.1.4",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/all_tm_shop_gen3_v1.1.4.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": "0.0.0-dev || >=0.2.48 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "gen3_modern_ui",
+  "title": "Gen3 Modern UI Enhanced",
+  "author": "FAFF0x",
+  "summary": "Modern functional UI overhaul for Pokemon Recomp Gen 3 / FireRed. v1.0.19 adds icon-led navigation, type-aware party cards, a richer Bag, subtle animations, and a redesigned Trainer Card while preser…",
+  "version": "1.0.19",
+  "categories": [
+    "UI"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/modern_ui_gen3_v1.0.19.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "overhaul",
+  "affects_link": false,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "advanced_box_system_gen3",
+  "title": "Advanced Box System Gen 3",
+  "author": "FAFF0x",
+  "summary": "FireRed-only Advanced Box System integrated with the native PC flow. Choose Withdraw, Deposit, Move/Swap or Move Items, then use the advanced PARTY/BOX/detail layout while preserving native FireRed s…",
+  "version": "1.2.0",
+  "categories": [
+    "UI"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/advanced_box_system_gen3_v1.2.0.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": true,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}
