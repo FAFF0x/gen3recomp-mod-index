@@ -1,0 +1,53 @@
+name: Build Gen 3 mod index and deploy Pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Build index from FAFF0x/gen3recomp
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          MOD_SOURCE_REPO: FAFF0x/gen3recomp
+          MOD_SOURCE_REF: main
+        run: node scripts/sync-index.mjs
+
+      - name: Show indexed mods
+        run: node -e "const i=require('./site/data/index.json'); console.log(i.count+' mod(s) indexed')"
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
