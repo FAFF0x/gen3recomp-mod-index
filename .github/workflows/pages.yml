@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -21,17 +21,33 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
 
-      - name: Build index from FAFF0x/gen3recomp
+      - name: Synchronize Gen 3 mods
         env:
           GITHUB_TOKEN: ${{ github.token }}
           MOD_SOURCE_REPO: FAFF0x/gen3recomp
           MOD_SOURCE_REF: main
+          MOD_INDEX_AUTHOR: FAFF0x
         run: node scripts/sync-index.mjs
+
+      - name: Commit synchronized mod entries
+        run: |
+          changes=$(git status --porcelain -- mods)
+          if [ -z "$changes" ]; then
+            echo "No mod entry changes to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add mods
+            git commit -m "Sync Gen 3 mod entries [skip ci]"
+            git push
+          fi
 
       - name: Show indexed mods
         run: node -e "const i=require('./site/data/index.json'); console.log(i.count+' mod(s) indexed')"
