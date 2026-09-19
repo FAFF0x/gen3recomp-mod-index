@@ -1,0 +1,11 @@
+{
+  "name": "gen3recomp-mod-index",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automated Gen 3 recomp mod index",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node scripts/sync-index.mjs"
+  }
+}
