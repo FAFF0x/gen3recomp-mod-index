@@ -1,0 +1,21 @@
+{
+  "id": "reusable_machines_gen3",
+  "title": "Reusable Machines - Gen 3",
+  "author": "FAFF0x",
+  "summary": "FireRed-only port of Reusable Machines. TM01-TM50 remain after successful teaching, while HM moves can be replaced during the normal move-learning flow. Uses native Game3 TM Case and UI, with immedia…",
+  "version": "2.0.2",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/reusable_machines_gen3_v2.0.2.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

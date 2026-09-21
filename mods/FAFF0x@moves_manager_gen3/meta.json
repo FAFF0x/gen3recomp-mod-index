@@ -1,0 +1,21 @@
+{
+  "id": "moves_manager_gen3",
+  "title": "Moves Manager - Gen 3",
+  "author": "FAFF0x",
+  "summary": "FireRed-only Moves Manager: inspect move details, remember previously learned moves, restore forgotten moves and safely reorder move slots from the Party menu.",
+  "version": "2.0.1",
+  "categories": [
+    "UI"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/moves_manager_gen3_v2.0.1.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": true,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

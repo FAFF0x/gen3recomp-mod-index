@@ -1,0 +1,20 @@
+{
+  "id": "pokecenter_max_happiness_gen3",
+  "title": "Pokecenter Max Happiness Gen 3",
+  "author": "FAFF0x",
+  "summary": "FireRed-only Gen 3 port. Healing at a Pokemon Center automatically sets every non-Egg party Pokemon to maximum friendship (255).",
+  "version": "1.0.3",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/pokecenter_max_happiness_gen3_v1.0.3.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": "0.0.0-dev || >=0.2.48 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

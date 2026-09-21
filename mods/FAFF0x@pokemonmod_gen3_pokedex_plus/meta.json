@@ -1,0 +1,20 @@
+{
+  "id": "pokemonmod_gen3_pokedex_plus",
+  "title": "Pokédex Plus - Gen 3",
+  "author": "FAFF0x",
+  "summary": "FireRed-only Pokédex Plus with Modern UI, rebuilt Search & Filter Lab, cached research data, and Trade Evolution Fix-aware evolution requirements.",
+  "version": "1.0.8",
+  "categories": [
+    "UI"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/pokedex_plus_gen3_v1.0.8.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

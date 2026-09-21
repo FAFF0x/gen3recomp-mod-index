@@ -1,0 +1,21 @@
+{
+  "id": "pokemonmod_gen3_move_learn_stats",
+  "title": "Move Learn Stats - Gen 3 (Pokemon MOD)",
+  "author": "FAFF0x",
+  "summary": "FireRed-only move-learning comparison overlay for Gen 3. Shows the selected move versus the move being learned while preserving native FireRed learn/forget logic and Modern UI compatibility.",
+  "version": "2.0.1",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/move_learn_stats_gen3_v2.0.1.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "pokemonmod_gen3_trade_evolution_fix",
+  "title": "Trade Evolution Fix - Gen 3",
+  "author": "FAFF0x",
+  "summary": "FireRed-only: replaces all twelve vanilla trade evolutions with solo level-up paths while preserving held-item requirements where applicable.",
+  "version": "1.2.1",
+  "categories": [
+    "GAMEPLAY"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/trade_evolution_fix_gen3_v1.2.1.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <2.0.0",
+  "profile": "content",
+  "affects_link": true
+}

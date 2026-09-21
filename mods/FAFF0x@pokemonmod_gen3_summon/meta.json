@@ -1,0 +1,21 @@
+{
+  "id": "pokemonmod_gen3_summon",
+  "title": "Summon - Gen 3",
+  "author": "FAFF0x",
+  "summary": "FireRed-only SUMMON menu with a high-resolution Modern UI presenter: enter a National Pokedex number to begin a normal Gen 3 wild encounter.",
+  "version": "1.0.3",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/summon_gen3_v1.0.3.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

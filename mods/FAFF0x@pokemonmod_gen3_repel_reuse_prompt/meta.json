@@ -1,0 +1,21 @@
+{
+  "id": "pokemonmod_gen3_repel_reuse_prompt",
+  "title": "Repel Reuse Prompt - Gen 3",
+  "author": "FAFF0x",
+  "summary": "FireRed / Gen 3 only: asks whether to use another Repel when the current Repel wears off.",
+  "version": "1.0.2",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/repel_reuse_prompt_gen3_v1.0.2.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}
