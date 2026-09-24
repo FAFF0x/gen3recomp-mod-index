@@ -1,7 +1,19 @@
-# Pokédex Plus - Gen 3 v1.0.8
+# Pokédex Plus - Gen 3 v1.0.21
 
 FireRed-only port of `pokedex_plus_gen2_v1.0.3`.
 
+
+
+## v1.0.21 stable-base rebuild
+
+This release is rebuilt directly from the user-confirmed working **v1.0.8** codebase. The later experimental renderer/input rewrites are not used.
+
+- Added a sixth detail tab: **DEX ENTRY**.
+- DEX ENTRY reads FireRed/LeafGreen Pokédex data from Game3 `PokedexData.getEntry`: category, formatted height/weight and flavor text.
+- When FireRed and LeafGreen descriptions differ, **Up/Down** switches between them.
+- Kept the v1.0.8 list navigation, A-to-open-details behavior, Search & Filter Lab, caching and Modern UI bridge unchanged.
+- Vanilla FireRed rendering stays on the original 240×160 v1.0.8 path, but graphics-state cleanup is now guaranteed even if a draw fails.
+- The native renderer is always kept underneath the Modern UI overlay, so a Modern UI presentation error cannot leave a transparent/blank Pokédex.
 
 
 ## v1.0.8 Search & Filter Lab rebuild
@@ -64,6 +76,7 @@ FireRed-only port of `pokedex_plus_gen2_v1.0.3`.
 
 ### Details
 - Left/Right or L/R: change page
+- Up/Down on DEX ENTRY: switch FireRed / LeafGreen text when both entries differ
 - Up/Down: scroll long Evolution/Move/Habitat lists
 - SELECT: cry
 - START on Habitat: native AREA map
