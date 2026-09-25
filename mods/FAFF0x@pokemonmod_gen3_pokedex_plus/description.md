@@ -1,10 +1,10 @@
-# Pokédex Plus - Gen 3 v1.0.21
+# Pokédex Plus - Gen 3 v1.0.22
 
 FireRed-only port of `pokedex_plus_gen2_v1.0.3`.
 
 
 
-## v1.0.21 stable-base rebuild
+## v1.0.22 stable-base rebuild
 
 This release is rebuilt directly from the user-confirmed working **v1.0.8** codebase. The later experimental renderer/input rewrites are not used.
 
@@ -85,3 +85,7 @@ This release is rebuilt directly from the user-confirmed working **v1.0.8** code
 ## FireRed only
 
 Manifest target is exactly `games: ["firered"]` and no Gen2 runtime modules are used.
+
+
+## v1.0.22 Vanilla UI
+The vanilla renderer now uses authentic FRLG Pokédex card backgrounds/layouts, complete detail pages, wrapped evolution text, a native-style move table, a Kanto habitat map with markers, and a GBA-style Filter Lab. Modern UI rendering is unchanged from v1.0.21.

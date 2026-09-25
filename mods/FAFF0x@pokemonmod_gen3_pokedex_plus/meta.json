@@ -2,13 +2,13 @@
   "id": "pokemonmod_gen3_pokedex_plus",
   "title": "Pokédex Plus - Gen 3",
   "author": "FAFF0x",
-  "summary": "FireRed-only Pokédex Plus based on the proven v1.0.8 flow, with Pokédex Entry and sandbox-safe vanilla/Modern rendering.",
-  "version": "1.0.21",
+  "summary": "FireRed-only Pokédex Plus with Modern UI and a complete native FireRed-style vanilla Pokédex, including Pokédex Entry, stats, evolutions, moves, habitat map, and filters.",
+  "version": "1.0.22",
   "categories": [
     "UI"
   ],
   "repo": "https://github.com/FAFF0x/gen3recomp",
-  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/pokedex_plus_gen3_v1.0.21.zip",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/pokedex_plus_gen3_v1.0.22.zip",
   "automatic_version_check": false,
   "api": 2,
   "game_version": ">=0.0.0-0 <2.0.0",
