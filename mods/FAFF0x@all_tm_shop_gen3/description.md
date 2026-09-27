@@ -1,8 +1,8 @@
-# Universal Free TM/HM Shop Gen 3 — v1.1.4
+# Universal Free TM/HM Shop Gen 3 — v1.1.5
 
-FireRed-only port of `all_tm_shop_gen2` for Pokémon Recomp.
+FireRed/LeafGreen port of `all_tm_shop_gen2` for Pokémon Recomp.
 
-## v1.1.4 UI / filters upgrade
+## v1.1.5 FireRed + LeafGreen compatibility
 
 The TM/HM catalogue now has its own high-resolution Modern-UI-style renderer instead of being compressed through the generic Poké Mart presenter.
 
@@ -44,7 +44,7 @@ The TM/HM catalogue now has its own high-resolution Modern-UI-style renderer ins
 - HMs are reusable and limited to one owned copy.
 - Machines are removed from the normal Mart stock to prevent duplicates.
 - Their runtime price is ¥0, so they cannot be resold for profit.
-- Native FireRed TM CASE, Bag limits and teaching logic are preserved.
+- Native FireRed/LeafGreen TM CASE, Bag limits and teaching logic are preserved.
 - Other shop entries from other mods are preserved.
 - Equivalent TM/HM shop entries suppress duplicates.
-- Target is FireRed only (`games: ["firered"]`).
+- Targets are FireRed and LeafGreen (`games: ["firered", "leafgreen"]`).

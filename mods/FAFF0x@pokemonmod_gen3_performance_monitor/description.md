@@ -1,12 +1,12 @@
 # Performance Monitor - Gen 3 v1.0.1
 
-FireRed-only performance monitor for Pokémon Recomp Gen 3.
+FireRed/LeafGreen performance monitor for Pokémon Recomp Gen 3.
 
 ## Compatibility
 
-- Loads only for `firered`.
+- Loads for `firered` and `leafgreen`.
 - Uses the unique mod id `pokemonmod_gen3_performance_monitor`.
-- Uses FireRed's real `src.ui.game3.stack`, `src.core.game3.runtime` session and `src.core.game3.map` data for active-screen/map reporting.
+- Uses FRLG's shared `src.ui.game3.stack`, `src.core.game3.runtime` session and `src.core.game3.map` data for active-screen/map reporting.
 - Uses its own `mod.storage` namespace, so reports do not overwrite the Gen 2 build or another differently-ID'd monitor.
 - Runtime profiler markers are Gen 3-namespaced and do not unwrap/replace wrappers installed by a different performance-monitor mod.
 - No manifest conflict/incompatible entry is declared.
@@ -21,7 +21,7 @@ FireRed-only performance monitor for Pokémon Recomp Gen 3.
 
 ## Diagnostic reports
 
-Reports are written through the public `mod.storage` API in this mod's own FireRed storage namespace. Main export keys:
+Reports are written through the public `mod.storage` API in this mod's own FRLG storage namespace. Main export keys:
 
 - `exports/performance_report_latest_json`
 - `exports/performance_report_latest_txt`
@@ -34,4 +34,4 @@ The overlay/report combines FPS and frame-time statistics, renderer counters, Lu
 
 ## Modern UI
 
-The overlay uses the shared `render.hud` hook in window space. It does not replace FireRed menus and is compatible with `gen3_modern_ui`.
+The overlay uses the shared `render.hud` hook in window space. It does not replace FRLG menus and is compatible with `gen3_modern_ui`.

@@ -1,8 +1,8 @@
 # Trade Evolution Fix - Gen 3
 
-FireRed-only port of **Trade Evolution Fix** for Pokémon Recomp.
+FireRed/LeafGreen port of **Trade Evolution Fix** for Pokémon Recomp.
 
-Version **1.2.1** replaces FireRed's vanilla trade-evolution rows with real level-up rows, so solo play and data-driven UI mods report the new method as a level evolution instead of `TRADE`.
+Version **1.2.2** replaces FRLG's vanilla trade-evolution rows with real level-up rows, so solo play and data-driven UI mods report the new method as a level evolution instead of `TRADE`.
 
 ## Evolutions
 
@@ -19,13 +19,13 @@ Version **1.2.1** replaces FireRed's vanilla trade-evolution rows with real leve
 - Clamperl + DeepSeaTooth → Huntail — Level 40
 - Clamperl + DeepSeaScale → Gorebyss — Level 40
 
-For held-item evolutions, the Pokémon must still hold the original FireRed item when it levels up. The item is consumed only after a successful evolution. If the evolution is canceled, the item remains held.
+For held-item evolutions, the Pokémon must still hold the original FRLG item when it levels up. The item is consumed only after a successful evolution. If the evolution is canceled, the item remains held.
 
 Slowpoke is handled specially: at level 37, King's Rock selects Slowking; without King's Rock, the normal Slowbro evolution remains available.
 
 ## Compatibility
 
-- FireRed only (`games: ["firered"]`).
+- FireRed + LeafGreen (`games: ["firered", "leafgreen"]`).
 - Unique Gen3 mod id: `pokemonmod_gen3_trade_evolution_fix`.
 - Uses the public `evolution.check` hook and `pokemon.evolved` event.
 - Does not globally replace the Game3 evolution engine.

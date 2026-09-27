@@ -1,6 +1,6 @@
 # Moves Manager - Gen 3
 
-FireRed-only port of `moves_manager_gen2`.
+FireRed/LeafGreen port of `moves_manager_gen2`.
 
 ## Features
 
@@ -9,9 +9,9 @@ FireRed-only port of `moves_manager_gen2`.
 - **SELECT** selects a move, then SELECT/A on another slot safely reorders the moves.
 - Remembers naturally learned moves from the Pokémon's evolutionary line up to its current level, plus moves it has actually known while the mod is installed.
 - Lets you restore a remembered move into a selected slot.
-- Uses FireRed's native `Pokemon.swapMoves`, `Pokemon.replaceMove` and `Pokemon.teachMove` APIs.
+- Uses FRLG's native `Pokemon.swapMoves`, `Pokemon.replaceMove` and `Pokemon.teachMove` APIs.
 - HM moves cannot be overwritten.
-- Includes a high-resolution presenter that remains readable with `gen3_modern_ui`; the native FireRed layer still owns input and serves as a fallback.
+- Includes a high-resolution presenter that remains readable with `gen3_modern_ui`; the native FRLG layer still owns input and serves as a fallback.
 
 ## Controls
 
@@ -24,7 +24,7 @@ FireRed-only port of `moves_manager_gen2`.
 ## Compatibility
 
 - Generation: **Gen 3 only**
-- Game: **Pokémon FireRed** (`firered`)
+- Games: **Pokémon FireRed and LeafGreen** (`firered`, `leafgreen`)
 - Optional dependency: `gen3_modern_ui`
 - Gen2 and Gen3 packages use different internal IDs.
 - No installer-level `conflicts` are declared.

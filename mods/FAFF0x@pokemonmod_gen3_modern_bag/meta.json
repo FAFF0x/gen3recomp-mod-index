@@ -2,13 +2,13 @@
   "id": "pokemonmod_gen3_modern_bag",
   "title": "Modern Bag - Gen 3 (Pokemon MOD)",
   "author": "FAFF0x",
-  "summary": "Pokemon MOD FireRed-only Modern Bag with Favorites, eight logical categories, persistent pins, search, redesigned two-pane TM/HM catalogue, live move details, visual filters/sorting, Y/I move informa…",
-  "version": "1.0.3",
+  "summary": "Pokemon MOD FireRed/LeafGreen Modern Bag with Favorites, eight logical categories, persistent pins, search, redesigned two-pane TM/HM catalogue, live move details, visual filters/sorting, Y/I move in…",
+  "version": "1.0.4",
   "categories": [
     "UI"
   ],
   "repo": "https://github.com/FAFF0x/gen3recomp",
-  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/modern_bag_gen3_v1.0.3.zip",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/modern_bag_gen3_v1.0.4.zip",
   "automatic_version_check": false,
   "api": 2,
   "game_version": "0.0.0-dev || >=0.2.48 <2.0.0",

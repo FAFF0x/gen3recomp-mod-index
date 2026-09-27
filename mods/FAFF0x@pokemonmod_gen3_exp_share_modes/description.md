@@ -1,6 +1,6 @@
-# EXP Share Modes - Gen 3 / FireRed
+# EXP Share Modes - Gen 3 / FireRed + LeafGreen
 
-FireRed-native EXP distribution modes.
+FireRed/LeafGreen-native EXP distribution modes.
 
 ## Change the mode in game
 
@@ -14,7 +14,7 @@ The selection is saved by the mod and is used immediately for subsequent EXP awa
 
 ## Compatibility
 
-- FireRed only (`games: ["firered"]`).
-- Integrates into the native Game3 Options menu, so Modern UI Gen3 can render it like the other FireRed options.
-- Keeps FireRed trainer/traded/Lucky Egg bonuses and the public `exp.gain` hook.
+- FireRed and LeafGreen (`games: ["firered", "leafgreen"]`).
+- Integrates into the native Game3 Options menu, so Modern UI Gen3 can render it like the other FRLG options.
+- Keeps FRLG trainer/traded/Lucky Egg bonuses and the public `exp.gain` hook.
 - Uses a unique Gen3 ID and defers to equivalent active EXP Share Modes packages rather than double-awarding EXP.

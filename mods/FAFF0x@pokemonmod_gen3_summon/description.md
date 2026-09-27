@@ -1,8 +1,8 @@
 # Summon - Gen 3
 
-Versione **solo FireRed / Gen 3** di Summon per Pokémon Recomp.
+Versione **FireRed + LeafGreen / Gen 3** di Summon per Pokémon Recomp.
 
-Aggiunge **SUMMON** al menu Start di FireRed. Inserendo un numero del National Pokédex viene avviato un normale incontro selvatico con il Pokémon corrispondente. Il Pokémon non viene regalato direttamente: deve essere catturato normalmente.
+Aggiunge **SUMMON** al menu Start di FireRed e LeafGreen. Inserendo un numero del National Pokédex viene avviato un normale incontro selvatico con il Pokémon corrispondente. Il Pokémon non viene regalato direttamente: deve essere catturato normalmente.
 
 ## Uso
 
@@ -11,23 +11,23 @@ Aggiunge **SUMMON** al menu Start di FireRed. Inserendo un numero del National P
 3. Inserisci il numero National Pokédex.
 4. Controlla nome e livello mostrati.
 5. Seleziona **OK** oppure premi START/Invio.
-6. Inizia il normale incontro selvatico FireRed.
+6. Inizia il normale incontro selvatico FRLG.
 
 Il livello del Pokémon evocato corrisponde al livello del primo Pokémon sano della squadra.
 
-## Port FireRed reale
+## Port FRLG reale
 
-La mod usa `src.core.game3.pokemon` per risolvere National Dex → species ID interno FireRed e `src.world.game3.WorldAPI:startWildBattle()` per avviare l'incontro attraverso il percorso nativo Gen 3. Cattura, EXP, transizione, musica, PP, ritorno dall'incontro e white-out restano quindi gestiti dal runtime FireRed.
+La mod usa `src.core.game3.pokemon` per risolvere National Dex → species ID interno FRLG e `src.world.game3.WorldAPI:startWildBattle()` per avviare l'incontro attraverso il percorso nativo Gen 3. Cattura, EXP, transizione, musica, PP, ritorno dall'incontro e white-out restano quindi gestiti dal runtime FRLG.
 
 ## Compatibilità / anti-conflitto
 
 - Manifest ID: `pokemonmod_gen3_summon`
 - Screen ID: `pokemonmod_gen3_summon_screen`
-- Target: `games: ["firered"]`
+- Target: `games: ["firered", "leafgreen"]`
 - Nessuna dipendenza dalla versione Gen 2.
 - Nessun `conflict`/`incompatible` generico.
 - Se un'altra mod ha già inserito una voce **SUMMON** nel menu Start, questa mod non ne aggiunge una seconda.
-- La riga viene inserita nel vero Start menu FireRed tramite `ui.start_menu.items`, quindi resta compatibile con renderer alternativi come Modern UI che leggono la stessa lista.
+- La riga viene inserita nel vero Start menu FRLG tramite `ui.start_menu.items`, quindi resta compatibile con renderer alternativi come Modern UI che leggono la stessa lista.
 
 ## Controlli
 
@@ -45,10 +45,10 @@ La mod usa `src.core.game3.pokemon` per risolvere National Dex → species ID in
 ## Novità v1.0.2
 
 - schermata **SUMMON** ridisegnata in stile **Modern UI**;
-- niente più finestre FireRed vanilla per il keypad;
+- niente più finestre FRLG vanilla per il keypad;
 - pannello info più leggibile con numero Dex, nome Pokémon e livello evocato;
 - pulsanti numerici, DEL, OK e CANCEL con evidenza chiara del cursore;
-- compatibilità logica invariata con Start Menu, Modern UI e il runtime FireRed.
+- compatibilità logica invariata con Start Menu, Modern UI e il runtime FRLG.
 
 
 ## Fix v1.0.3 - Modern UI ad alta risoluzione

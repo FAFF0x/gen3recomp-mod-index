@@ -1,18 +1,18 @@
 # Reusable Machines - Gen 3 v2.0.1
 
-Port nativo FireRed/Game3 di **Reusable Machines**.
+Port nativo FireRed/LeafGreen Game3 di **Reusable Machines**.
 
 ## Funzioni
 
 - **TM01-TM50 riutilizzabili**: una TM non viene rimossa dal TM CASE dopo un insegnamento riuscito.
 - **HM sostituibili nel normale apprendimento mosse**: se un Pokémon conosce già quattro mosse, una HM può essere scelta come mossa da dimenticare durante il flusso standard di apprendimento.
-- Le HM restano naturalmente riutilizzabili come nel comportamento FireRed.
+- Le HM restano naturalmente riutilizzabili come nel comportamento FRLG.
 - **Vendita e rimozione manuale delle TM restano native**: la mod sopprime solo la rimozione causata dall'insegnamento riuscito.
 - Non sostituisce TM CASE, Party Menu, Summary o Learn Move UI: resta quindi compatibile con presenter come **Modern UI Gen3**.
 
-## FireRed only
+## FireRed + LeafGreen
 
-Manifest: `games: ["firered"]`. Non contiene moduli Gen2.
+Manifest: `games: ["firered", "leafgreen"]`. Non contiene moduli Gen2.
 
 ID: `reusable_machines_gen3`, separato da `reusable_machines_gen2`.
 

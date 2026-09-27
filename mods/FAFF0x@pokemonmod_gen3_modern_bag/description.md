@@ -1,21 +1,21 @@
 # Modern Bag - Gen 3 (Pokemon MOD)
 
-FireRed-only port of `modern_bag_gen2_v1.0.0` for Pokemon Recomp Game3.
+FireRed/LeafGreen port of `modern_bag_gen2_v1.0.0` for Pokemon Recomp Game3.
 
 ## Identity / coexistence
 
 - ID: `pokemonmod_gen3_modern_bag`
 - Version: `1.0.3`
-- Target: `games: ["firered"]`
+- Targets: `games: ["firered", "leafgreen"]`
 - No Gen2 runtime modules
 - No hard manifest conflicts
 - Defers to an active `modern_bag_gen3` or `modern_bag` equivalent instead of installing a second Bag dispatcher
 - Uses a Game3 module sentinel so two equivalent runtime patches cannot double-wrap the Bag
 - Optional `gen3_modern_ui` integration is automatic because Modern UI reads the live Game3 `BagMenu`
 
-## FireRed design
+## FireRed / LeafGreen design
 
-FireRed stores inventory in five physical pockets: Items, Key Items, Poke Balls, TM Case and Berry Pouch. This mod does **not** move items between those physical pockets. It provides eight logical views over the same live data:
+FireRed and LeafGreen store inventory in five physical pockets: Items, Key Items, Poke Balls, TM Case and Berry Pouch. This mod does **not** move items between those physical pockets. It provides eight logical views over the same live data:
 
 1. Favorites
 2. Medicine
@@ -26,17 +26,17 @@ FireRed stores inventory in five physical pockets: Items, Key Items, Poke Balls,
 7. Key Items
 8. Other
 
-The native FireRed item-use paths remain authoritative for USE, GIVE, TOSS, REGISTER and TM/HM teaching.
+The native FRLG item-use paths remain authoritative for USE, GIVE, TOSS, REGISTER and TM/HM teaching.
 
 ## Controls
 
 - Left / Right: logical category
 - Up / Down: item
-- A: native FireRed action menu
+- A: native FRLG action menu
 - SELECT: Modern Bag tools (favorite, pin, register, move info, sort)
 - START: search; in TM/HM opens the dedicated NAME / TYPE / CLASS / SORT hub
 
-TM/HM filters include move-name search, all FireRed move types, physical/special/status class and machine-number/move-name/power sorting. All filters can be combined.
+TM/HM filters include move-name search, all FRLG move types, physical/special/status class and machine-number/move-name/power sorting. All filters can be combined.
 
 
 ### TM/HM catalogue and move information

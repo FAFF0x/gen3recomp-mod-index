@@ -1,0 +1,20 @@
+{
+  "id": "random_starter_roster_gen3",
+  "title": "Random Starter Roster - Gen 3",
+  "author": "FAFF0x",
+  "summary": "FireRed/LeafGreen random starter roster: Oak offers three random base-stage Pokemon from genuine three-stage evolution families, with a consistent rival starter line.",
+  "version": "1.0.1",
+  "categories": [
+    "GAMEPLAY"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/random_starter_roster_gen3_v1.0.1.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

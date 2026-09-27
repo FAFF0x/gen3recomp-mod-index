@@ -2,13 +2,13 @@
   "id": "pokemonmod_gen3_item_shortcut",
   "title": "Item Shortcut - Gen 3 (Pokemon MOD)",
   "author": "FAFF0x",
-  "summary": "FireRed-only Item Shortcut with five BAG shortcuts, one FAST item, raw hotkeys, Start-menu access, and a high-resolution Modern UI-style presenter.",
-  "version": "1.0.4",
+  "summary": "FireRed/LeafGreen Item Shortcut with five BAG shortcuts, one FAST item, raw hotkeys, Start-menu access, and a high-resolution Modern UI-style presenter.",
+  "version": "1.0.5",
   "categories": [
     "UI"
   ],
   "repo": "https://github.com/FAFF0x/gen3recomp",
-  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/item_shortcut_gen3_v1.0.4.zip",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/item_shortcut_gen3_v1.0.5.zip",
   "automatic_version_check": false,
   "api": 2,
   "game_version": ">=0.0.0-dev <1.0.0",

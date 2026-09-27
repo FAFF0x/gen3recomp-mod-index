@@ -1,12 +1,12 @@
-# Pokecenter Max Happiness Gen 3 v1.0.3
+# Pokecenter Max Happiness Gen 3 v1.0.4
 
-FireRed-only Gen 3 port of `pokecenter_max_happiness_gen2`.
+FireRed/LeafGreen Gen 3 port of `pokecenter_max_happiness_gen2`.
 
 ## Behavior
 
-When the normal Pokemon Center nurse executes FireRed's `HealPlayerParty` special while the player is inside a `*_POKEMON_CENTER_1F` map:
+When the normal Pokemon Center nurse executes FRLG's `HealPlayerParty` special while the player is inside a `*_POKEMON_CENTER_1F` map:
 
-1. the vanilla FireRed heal runs normally;
+1. the vanilla FRLG heal runs normally;
 2. every non-Egg Pokemon in the current party gets `friendship = 255` and `happiness = 255`.
 
 Eggs are intentionally excluded.
@@ -15,7 +15,7 @@ Other Game3 heals are left vanilla because this mod does **not** replace `Party.
 
 ## Compatibility
 
-- Target: FireRed only (`games: ["firered"]`).
+- Targets: FireRed and LeafGreen (`games: ["firered", "leafgreen"]`).
 - Mod id: `pokecenter_max_happiness_gen3`.
 - Uses the composable `script.command` hook rather than replacing Game3 engine functions.
 - Does not add or replace UI, so it is compatible with Modern UI Gen3.
