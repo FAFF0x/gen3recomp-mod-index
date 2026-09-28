@@ -2,13 +2,13 @@
   "id": "pokemonmod_gen3_repel_reuse_prompt",
   "title": "Repel Reuse Prompt - Gen 3",
   "author": "FAFF0x",
-  "summary": "FireRed/LeafGreen Gen 3: asks whether to use another Repel when the current Repel wears off.",
-  "version": "1.0.3",
+  "summary": "FireRed/LeafGreen Gen 3 Repel overhaul. REPEL MODE is integrated into START > OPTION > EXTRAS using the same native option_rows integration pattern as EXP Share Modes. UNCAUGHT allows only uncaught s…",
+  "version": "1.1.3",
   "categories": [
     "QOL"
   ],
   "repo": "https://github.com/FAFF0x/gen3recomp",
-  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/repel_reuse_prompt_gen3_v1.0.3.zip",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/repel_reuse_prompt_gen3_v1.1.3.zip",
   "automatic_version_check": false,
   "api": 2,
   "game_version": ">=0.0.0-dev <1.0.0",

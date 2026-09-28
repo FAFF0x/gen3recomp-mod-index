@@ -2,13 +2,13 @@
   "id": "pokemonmod_gen3_stable_menu_navigation",
   "title": "Stable Menu Navigation - Gen 3",
   "author": "FAFF0x",
-  "summary": "Keeps FireRed/LeafGreen held directional menu navigation at a stable real-time speed even when GAME SPEED is increased.",
-  "version": "1.0.3",
+  "summary": "Slow FireRed/LeafGreen menu navigation. Loads after Modern Bag/Modern UI, de-duplicates directional input and enforces a deliberately slow real-time held-scroll cadence.",
+  "version": "1.2.0",
   "categories": [
     "UI"
   ],
   "repo": "https://github.com/FAFF0x/gen3recomp",
-  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/stable_menu_navigation_gen3_v1.0.3.zip",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/stable_menu_navigation_gen3_v1.2.0.zip",
   "automatic_version_check": false,
   "api": 2,
   "game_version": ">=0.0.0-dev <1.0.0",

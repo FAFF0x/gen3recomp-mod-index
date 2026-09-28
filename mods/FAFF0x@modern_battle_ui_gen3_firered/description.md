@@ -1,6 +1,16 @@
 # Modern Battle UI - Gen 3 / FireRed + LeafGreen
 
-Version 1.3.1 supports both FireRed and LeafGreen without changing native battle logic.
+Version 1.4.0 supports both FireRed and LeafGreen without changing native battle logic.
+
+## Complete battle presentation in 1.4.0
+
+The modern renderer now also owns the battle presentation states that previously fell back to vanilla FRLG chrome:
+
+- **Battle dialogue**: attack results, status text, EXP messages and other battle messages are redrawn in the Modern Battle UI style while the native `Message` system still owns timing and input.
+- **Level-up**: the `grew to Lv.` message uses the modern dialogue panel, and the two-page stat-growth window is redrawn as a modern high-resolution card.
+- **Opponent switch prompt**: the battle question and its YES/NO choice are redrawn with the modern decision panel.
+- **Move learning during battle**: all learn/forget dialogue is modern, and the fullscreen `select_move` summary screen is covered by a dedicated modern move-learning interface using the same native cursor and callbacks.
+- The fix is presentation-only: no damage, EXP, switching, move replacement, HM protection or battle sequencing rules are changed.
 
 The mod reads the shared live `src.core.game3.battle` / `src.core.game3.battle.ui` runtime and renders the modern presentation after the native FRLG frame.
 
@@ -23,4 +33,4 @@ The mod reads the shared live `src.core.game3.battle` / `src.core.game3.battle.u
 
 The presentation keeps the Modern UI Gen3-inspired Kanto blue, white, Poké Ball red and yellow selection language, with high-resolution window-space typography.
 
-FireRed/LeafGreen remain authoritative for battle input, damage, animations, Bag, Party, dialogue, captures and experience gains. The MOVE INFO panel is read-only.
+FireRed/LeafGreen remain authoritative for battle input, damage, animations, Bag, Party, captures, experience gains, dialogue timing, choices and move-learning callbacks. Modern Battle UI now redraws those battle-facing dialogue/choice/learning states instead of exposing the vanilla chrome. The MOVE INFO panel remains read-only.

@@ -1,4 +1,4 @@
-# Reusable Machines - Gen 3 v2.0.1
+# Reusable Machines - Gen 3 v2.1.0
 
 Port nativo FireRed/LeafGreen Game3 di **Reusable Machines**.
 
@@ -23,3 +23,25 @@ La patch usa sentinelle sui moduli Game3 reali per evitare doppi wrapper in pres
 
 ## v2.0.2 compatibility preview
 When a TM/HM is used and the Party target screen opens, each Pokémon is labelled **CAN LEARN**, **LEARNED**, **NOT ABLE**, or **EGG** before you press A. The selected machine and move name are shown in the header. The overlay is designed to sit on top of Modern UI Gen3 without replacing PartyMenu input or state.
+
+
+## v2.1.0 — Extended TM/HM compatibility
+
+The native FRLG `Pokemon.canLearnTmItem()` lookup only has ROM TM/HM bitfields for
+the original species roster. That makes later-generation Pokémon appear unable
+to learn every machine even when the move is valid for that species.
+
+v2.1.0 keeps the exact FRLG compatibility for National Dex #001-#386 and adds a
+separate compatibility table for later National Dex species through #1025.
+
+The extended table covers the native 58 FireRed/LeafGreen machines:
+
+- TM01-TM50
+- HM01-HM08
+
+This is a real teaching fix, not only a UI badge fix: the patch is applied to
+`Pokemon.canLearnTmIndex`, so `ItemUse.checkTmPreflight()` and the Party preview
+use the same result.
+
+Example: Buzzwole (#794) is compatible with TM31 Brick Break and can now pass the
+TM preflight instead of being rejected as `NOT ABLE`.

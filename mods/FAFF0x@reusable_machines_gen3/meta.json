@@ -2,13 +2,13 @@
   "id": "reusable_machines_gen3",
   "title": "Reusable Machines - Gen 3",
   "author": "FAFF0x",
-  "summary": "FireRed/LeafGreen port of Reusable Machines. TM01-TM50 remain after successful teaching, while HM moves can be replaced during the normal move-learning flow. Uses native Game3 TM Case and UI, with im…",
-  "version": "2.0.3",
+  "summary": "FireRed/LeafGreen Reusable Machines with extended TM/HM compatibility for modern National Dex species. TM01-TM50 remain reusable, HM moves can be replaced in the normal learn flow, and Gen 4+ Pokemon…",
+  "version": "2.1.0",
   "categories": [
     "QOL"
   ],
   "repo": "https://github.com/FAFF0x/gen3recomp",
-  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/reusable_machines_gen3_v2.0.3.zip",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/reusable_machines_gen3_v2.1.0.zip",
   "automatic_version_check": false,
   "api": 2,
   "game_version": ">=0.0.0-dev <1.0.0",
