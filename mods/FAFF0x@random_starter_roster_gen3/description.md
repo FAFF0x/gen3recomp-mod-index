@@ -2,7 +2,7 @@
 
 FireRed/LeafGreen mod for Pokémon Recomp / Gen1Recomp.
 
-At the beginning of a new game, Professor Oak's three starter Poké Balls are replaced by a stable random roster of three different Pokémon. Every candidate is the base stage of a family with at least one complete three-stage evolution path (base → middle → final).
+At the beginning of a new game, Professor Oak's three starter Poké Balls are replaced by three different random Pokémon. Every candidate is the base stage of a family with at least one complete three-stage evolution path (base → middle → final).
 
 ## Behaviour
 
@@ -30,3 +30,15 @@ This naturally supports branching three-stage families too.
 - Generation: Gen 3
 - Games: FireRed and LeafGreen
 - Modern UI: no dependency; this mod does not replace UI rendering.
+
+
+## v1.1.0 - Fresh roster on every launch
+
+Before the starter is chosen, the three Oak Lab choices are regenerated every time the game application is closed and reopened.
+
+- All three choices are different from each other.
+- Every choice is a base-stage Pokémon with a complete base → middle → final evolution path.
+- The mod prefers to exclude all three Pokémon shown on the immediately previous launch, so a restart produces three visibly new choices when the available pool is large enough.
+- The preview trio is not reused as the current trio on the next launch.
+- Once the player actually receives a starter, that trio is committed for the save so Blue's/rival's matching starter family stays consistent for the rest of the adventure.
+- FireRed and LeafGreen are both supported.
