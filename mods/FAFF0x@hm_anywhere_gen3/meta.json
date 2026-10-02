@@ -8,7 +8,7 @@
     "QOL"
   ],
   "repo": "https://github.com/FAFF0x/gen3recomp",
-  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/hm_anywhere_gen3_v2.1.4.zip",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/FIRERED-LEAFGREEN/hm_anywhere_gen3_v2.1.4.zip",
   "automatic_version_check": false,
   "api": 2,
   "game_version": ">=0.0.0-dev <1.0.0",

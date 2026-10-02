@@ -1,0 +1,21 @@
+{
+  "id": "pokemonmod_gen3_item_shortcut_emerald",
+  "title": "Item Shortcut - Gen 3 Emerald (Pokemon MOD)",
+  "author": "FAFF0x",
+  "summary": "Emerald-only Gen 3 Item Shortcut with five BAG shortcuts, one FAST item, raw hotkeys, Emerald Start-menu access, RSE item icons, and a Modern UI-compatible presenter.",
+  "version": "1.1.0",
+  "categories": [
+    "UI"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/EMERALD/item_shortcut_gen3_emerald_v1.1.0.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

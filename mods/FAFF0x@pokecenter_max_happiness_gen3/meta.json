@@ -8,7 +8,7 @@
     "QOL"
   ],
   "repo": "https://github.com/FAFF0x/gen3recomp",
-  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/pokecenter_max_happiness_gen3_v1.0.4.zip",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/FIRERED-LEAFGREEN/pokecenter_max_happiness_gen3_v1.0.4.zip",
   "automatic_version_check": false,
   "api": 2,
   "game_version": "0.0.0-dev || >=0.2.48 <2.0.0",

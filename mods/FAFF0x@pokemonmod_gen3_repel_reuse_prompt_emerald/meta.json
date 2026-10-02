@@ -1,0 +1,21 @@
+{
+  "id": "pokemonmod_gen3_repel_reuse_prompt_emerald",
+  "title": "Repel Reuse Prompt - Emerald",
+  "author": "FAFF0x",
+  "summary": "Emerald-only Gen 3 Repel overhaul. Adds a native RSE reuse prompt when Repel expires plus REPEL MODE in START > OPTION > EXTRAS: UNCAUGHT filters caught species, BLOCK ALL suppresses random walking e…",
+  "version": "1.2.0",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/EMERALD/repel_reuse_prompt_gen3_emerald_v1.2.0.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

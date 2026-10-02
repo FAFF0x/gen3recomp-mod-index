@@ -1,0 +1,21 @@
+{
+  "id": "reusable_machines_gen3_emerald",
+  "title": "Reusable Machines - Gen 3 Emerald",
+  "author": "FAFF0x",
+  "summary": "Emerald-only Gen 3 Reusable Machines: TM01-TM50 remain reusable, HM moves can be replaced in the normal Emerald learn flow, and later-generation Pokemon use the extended 58-machine compatibility tabl…",
+  "version": "2.2.0",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/EMERALD/reusable_machines_gen3_emerald_v2.2.0.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

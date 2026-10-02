@@ -8,7 +8,7 @@
     "QOL"
   ],
   "repo": "https://github.com/FAFF0x/gen3recomp",
-  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/all_tm_shop_gen3_v1.1.5.zip",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/FIRERED-LEAFGREEN/all_tm_shop_gen3_v1.1.5.zip",
   "automatic_version_check": false,
   "api": 2,
   "game_version": "0.0.0-dev || >=0.2.48 <2.0.0",

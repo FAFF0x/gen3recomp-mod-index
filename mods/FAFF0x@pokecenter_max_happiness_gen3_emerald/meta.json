@@ -1,0 +1,20 @@
+{
+  "id": "pokecenter_max_happiness_gen3_emerald",
+  "title": "Pokecenter Max Happiness Gen 3 — Emerald",
+  "author": "FAFF0x",
+  "summary": "Emerald-only Gen 3 port. Healing at an Emerald Pokemon Center automatically sets every non-Egg party Pokemon to maximum friendship (255).",
+  "version": "1.1.0",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/EMERALD/pokecenter_max_happiness_gen3_emerald_v1.1.0.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": "0.0.0-dev || >=0.2.48 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

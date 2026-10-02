@@ -8,7 +8,7 @@
     "QOL"
   ],
   "repo": "https://github.com/FAFF0x/gen3recomp",
-  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/disable_help_lr_gen3_v1.0.1.zip",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/FIRERED-LEAFGREEN/disable_help_lr_gen3_v1.0.1.zip",
   "automatic_version_check": false,
   "api": 2,
   "game_version": ">=0.0.0-dev <1.0.0",

@@ -1,0 +1,21 @@
+{
+  "id": "moves_manager_gen3_emerald",
+  "title": "Moves Manager - Gen 3 Emerald",
+  "author": "FAFF0x",
+  "summary": "Pokemon Emerald-only Moves Manager: inspect battle and contest move details, remember previously learned moves, restore forgotten moves and safely reorder move slots from the Emerald/RSE Party menu.",
+  "version": "2.1.0",
+  "categories": [
+    "UI"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/EMERALD/moves_manager_gen3_emerald_v2.1.0.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": true,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

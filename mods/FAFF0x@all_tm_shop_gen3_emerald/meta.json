@@ -1,0 +1,20 @@
+{
+  "id": "all_tm_shop_gen3_emerald",
+  "title": "Universal Free TM/HM Shop Gen 3 - Emerald",
+  "author": "FAFF0x",
+  "summary": "Emerald-only free TM/HM shop with Modern UI and Evolution Shop compatibility. Fixes cross-mod root activation and keeps the FREE badge contained in the shop row.",
+  "version": "1.2.2",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/EMERALD/all_tm_shop_gen3_emerald_v1.2.2.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": "0.0.0-dev || >=0.2.48 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

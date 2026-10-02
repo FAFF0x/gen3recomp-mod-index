@@ -8,7 +8,7 @@
     "QOL"
   ],
   "repo": "https://github.com/FAFF0x/gen3recomp",
-  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/move_learn_stats_gen3_v2.0.2.zip",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/FIRERED-LEAFGREEN/move_learn_stats_gen3_v2.0.2.zip",
   "automatic_version_check": false,
   "api": 2,
   "game_version": ">=0.0.0-dev <1.0.0",

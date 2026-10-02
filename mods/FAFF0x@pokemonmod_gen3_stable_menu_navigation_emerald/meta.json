@@ -1,0 +1,21 @@
+{
+  "id": "pokemonmod_gen3_stable_menu_navigation_emerald",
+  "title": "Stable Menu Navigation - Gen 3 (Emerald)",
+  "author": "FAFF0x",
+  "summary": "Emerald-only stable menu navigation. De-duplicates directional input and applies slow real-time held scrolling to the native RSE Bag and Battle Pyramid Bag, independent of GAME SPEED.",
+  "version": "1.3.0",
+  "categories": [
+    "UI"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/EMERALD/stable_menu_navigation_gen3_emerald_v1.3.0.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

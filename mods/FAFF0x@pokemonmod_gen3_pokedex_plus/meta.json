@@ -8,7 +8,7 @@
     "UI"
   ],
   "repo": "https://github.com/FAFF0x/gen3recomp",
-  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/pokedex_plus_gen3_v1.0.24.zip",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/FIRERED-LEAFGREEN/pokedex_plus_gen3_v1.0.24.zip",
   "automatic_version_check": false,
   "api": 2,
   "game_version": ">=0.0.0-0 <2.0.0",

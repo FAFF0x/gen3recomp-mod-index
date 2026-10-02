@@ -8,7 +8,7 @@
     "UI"
   ],
   "repo": "https://github.com/FAFF0x/gen3recomp",
-  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/modern_battle_ui_gen3_v1.4.0.zip",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/FIRERED-LEAFGREEN/modern_battle_ui_gen3_v1.4.0.zip",
   "automatic_version_check": false,
   "api": 2,
   "game_version": ">=0.0.0-dev <1.0.0",

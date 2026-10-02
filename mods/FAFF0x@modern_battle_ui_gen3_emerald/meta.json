@@ -1,0 +1,20 @@
+{
+  "id": "modern_battle_ui_gen3_emerald",
+  "title": "MODERN BATTLE UI - GEN 3 (EMERALD)",
+  "author": "FAFF0x",
+  "summary": "Modern Pokémon Emerald battle HUD for the Gen 3 RSE runtime, including singles, doubles, Emerald Safari actions, battle dialogue, level-up/stat growth, move learning, effectiveness, EXP, caught statu…",
+  "version": "1.5.0",
+  "categories": [
+    "UI"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/EMERALD/modern_battle_ui_gen3_emerald_v1.5.0.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

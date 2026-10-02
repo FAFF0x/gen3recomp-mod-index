@@ -1,0 +1,21 @@
+{
+  "id": "pokemonmod_gen3_emerald_free_master_rare_evolution_repel",
+  "title": "Free Master/Rare + Evolution + Max Repel - Emerald",
+  "author": "FAFF0x",
+  "summary": "Emerald-only Gen 3 shop mod: free Master Ball, Rare Candy and Max Repel in normal Poke Marts plus a dedicated free Evolution Shop, adapted to Emerald's native RSE ShopMenu path.",
+  "version": "1.1.0",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/EMERALD/free_master_rare_evolution_repel_emerald_v1.1.0.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

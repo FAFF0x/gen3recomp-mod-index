@@ -1,0 +1,20 @@
+{
+  "id": "pokemonmod_gen3_modern_bag_emerald",
+  "title": "Modern Bag - Gen 3 Emerald (Pokemon MOD)",
+  "author": "FAFF0x",
+  "summary": "Pokemon Emerald-only Modern Bag for the Game3 RSE runtime: corrected 8-tab logical inventory mapping, favorites, pins, search, TM/HM catalogue, move details, filters/sorting, Emerald RSE Bag skin int…",
+  "version": "1.1.1",
+  "categories": [
+    "UI"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/EMERALD/modern_bag_gen3_emerald_v1.1.1.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": "0.0.0-dev || >=0.2.48 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

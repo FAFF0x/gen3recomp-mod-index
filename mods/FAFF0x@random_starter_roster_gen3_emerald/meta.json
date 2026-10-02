@@ -1,0 +1,20 @@
+{
+  "id": "random_starter_roster_gen3_emerald",
+  "title": "Random Starter Roster - Gen 3 Emerald",
+  "author": "FAFF0x",
+  "summary": "Pokemon Emerald-only random starter roster: Birch's Route 101 starter chooser offers three new, distinct base-stage Pokemon from genuine three-stage evolution families. The chosen roster is committed…",
+  "version": "1.2.0",
+  "categories": [
+    "GAMEPLAY"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/EMERALD/random_starter_roster_gen3_emerald_v1.2.0.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

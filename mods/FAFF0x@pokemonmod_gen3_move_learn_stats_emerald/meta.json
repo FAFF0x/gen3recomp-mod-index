@@ -1,0 +1,21 @@
+{
+  "id": "pokemonmod_gen3_move_learn_stats_emerald",
+  "title": "Move Learn Stats - Gen 3 Emerald (Pokemon MOD)",
+  "author": "FAFF0x",
+  "summary": "Emerald-only move-learning comparison overlay for Gen 3. Integrates with the native RSE Summary learn/forget flow and follows Emerald's Battle Moves / Contest Moves views while preserving native move…",
+  "version": "2.1.0",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/EMERALD/move_learn_stats_gen3_emerald_v2.1.0.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

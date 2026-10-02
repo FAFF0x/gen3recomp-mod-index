@@ -1,0 +1,21 @@
+{
+  "id": "gen3_modern_ui_emerald",
+  "title": "Gen3 Modern UI Enhanced — Emerald Standalone",
+  "author": "FAFF0x",
+  "summary": "Standalone Emerald-only Modern UI overhaul for Pokemon Recomp Gen 3. RSE shop cursor/scroll state is synchronized with Emerald list_menu; targets only Emerald/RSE UI and state routing.",
+  "version": "1.1.2",
+  "categories": [
+    "UI"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/EMERALD/modern_ui_gen3_emerald_v1.1.2.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "overhaul",
+  "affects_link": false,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

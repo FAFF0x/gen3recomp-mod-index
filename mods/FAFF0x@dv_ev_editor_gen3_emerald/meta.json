@@ -1,0 +1,21 @@
+{
+  "id": "dv_ev_editor_gen3_emerald",
+  "title": "DV EV Editor Gen 3 - Emerald",
+  "author": "FAFF0x",
+  "summary": "Emerald-only Gen 3 IV/EV editor. Adds IV/EV to the normal Emerald field party action menu, edits all six IVs and EVs, recalculates stats immediately, and supports START to maximize all values.",
+  "version": "2.1.0",
+  "categories": [
+    "QOL"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/EMERALD/dv_ev_editor_gen3_emerald_v2.1.0.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": true,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "advanced_box_system_gen3_emerald",
+  "title": "Advanced Box System Gen 3 - Emerald",
+  "author": "FAFF0x",
+  "summary": "Emerald-only Advanced Box System integrated with the native Gen 3 RSE storage flow. START -> PC opens Emerald's storage submenu without the FRLG Text_AccessWhichPC path; Withdraw, Deposit and Move/Sw…",
+  "version": "1.3.1",
+  "categories": [
+    "UI"
+  ],
+  "repo": "https://github.com/FAFF0x/gen3recomp",
+  "downloadURL": "https://raw.githubusercontent.com/FAFF0x/gen3recomp/main/EMERALD/advanced_box_system_gen3_emerald_v1.3.1.zip",
+  "automatic_version_check": false,
+  "api": 2,
+  "game_version": ">=0.0.0-dev <1.0.0",
+  "profile": "content",
+  "affects_link": true,
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ]
+}
