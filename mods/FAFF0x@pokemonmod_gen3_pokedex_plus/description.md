@@ -89,3 +89,9 @@ Manifest targets are `games: ["firered", "leafgreen"]` and no Gen2 runtime modul
 
 ## v1.0.22 Vanilla UI
 The vanilla renderer now uses authentic FRLG Pokédex card backgrounds/layouts, complete detail pages, wrapped evolution text, a native-style move table, a Kanto habitat map with markers, and a GBA-style Filter Lab. Modern UI rendering is unchanged from v1.0.21.
+
+
+## v1.0.24 — Modern UI text fitting fixes
+
+- Fixed the overflow of the **ACTIVE FILTERS** block in the list sidebar.
+- Fixed long tab labels such as **LEVEL MOVES** so they stay inside the tab button.
